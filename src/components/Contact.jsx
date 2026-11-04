@@ -2,9 +2,9 @@ import { useLanguage } from '../context/LanguageContext';
 import './Contact.css';
 
 const socialLinks = [
-  { key: 'github', href: 'https://github.com/tomaspriyenzi', icon: '↗' },
-  { key: 'gmail', href: 'mailto:tomaspriyenzi@gmail.com', icon: '↗' },
-  { key: 'instagram', href: 'https://instagram.com/tomaspriyenzi', icon: '↗' },
+  { key: 'github', href: 'https://github.com/TomyPriyenzi', icon: '↗' },
+  { key: 'gmail', href: 'mailto:tomipriyenzi04@gmail.com', icon: '↗' },
+  { key: 'instagram', href: 'https://instagram.com/tomy._.priyenzi', icon: '↗' },
 ];
 
 export default function Contact() {
