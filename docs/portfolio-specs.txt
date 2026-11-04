@@ -1,0 +1,9 @@
+estilo --> minimalismo con letras grandes
+
+colores --> fondo gris oscuro, textos en gris, textos en color violeta (#7c3aed) para cosas específicas, gradientes de gris oscuro a negro total (fondo), gradientes de gris grafito a gris oscuro (para las cards)
+
+espaciado --> un buen espaciado (detalles grandes)
+
+fuentes --> montserrat extrabold (titulos) - montserrat regular (subtitulos) - inter (textos)
+
+ 

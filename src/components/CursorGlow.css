@@ -1,0 +1,30 @@
+.cursor-glow {
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle 125px at center,
+    rgba(235, 238, 245, 0.22) 0%,
+    rgba(205, 210, 222, 0.12) 35%,
+    rgba(165, 170, 185, 0.04) 65%,
+    transparent 80%
+  );
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+  will-change: left, top;
+}
+
+.cursor-dot {
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(230, 232, 240, 0.95);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+}

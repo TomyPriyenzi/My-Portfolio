@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #7c3aed #09090b;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #000;
+  color: #e5e5e5;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+* { cursor: none !important; }
+
+/* Custom scrollbar in purple #7c3aed */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #7c3aed;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
