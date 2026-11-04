@@ -8,8 +8,20 @@ section {
   padding: 120px 80px;
 }
 
+@media (max-width: 1024px) {
+  section {
+    padding: 100px 48px;
+  }
+}
+
 @media (max-width: 768px) {
   section {
-    padding: 80px 24px;
+    padding: 85px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 75px 16px;
   }
 }

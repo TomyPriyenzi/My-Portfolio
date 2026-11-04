@@ -15,10 +15,28 @@ body {
   background: #000;
   color: #e5e5e5;
   overflow-x: hidden;
-  cursor: none;
 }
 
-* { cursor: none !important; }
+/* Custom cursor only on desktop devices with mouse/pointer */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none;
+  }
+  * {
+    cursor: none !important;
+  }
+}
+
+/* Touch devices: native touch interactions and hide custom cursor glow */
+@media (hover: none) or (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+  .cursor-glow,
+  .cursor-dot {
+    display: none !important;
+  }
+}
 
 /* Custom scrollbar in purple #7c3aed */
 ::-webkit-scrollbar {

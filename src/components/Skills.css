@@ -50,13 +50,45 @@
   letter-spacing: 0.05em;
 }
 
+@media (max-width: 1024px) {
+  .skills {
+    padding: 100px 48px;
+    gap: 70px;
+  }
+}
+
 @media (max-width: 768px) {
   .skills {
-    padding: 80px 24px;
-    gap: 60px;
+    padding: 85px 20px;
+    gap: 48px;
   }
 
+  .skill-item--left,
   .skill-item--right {
     text-align: left !important;
+  }
+
+  .skill-item__title {
+    font-size: clamp(28px, 8vw, 44px);
+  }
+
+  .skill-item__tech {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 75px 16px;
+    gap: 40px;
+  }
+
+  .skill-item__title {
+    font-size: clamp(24px, 7.5vw, 36px);
+  }
+
+  .skill-item__tech {
+    font-size: 13.5px;
   }
 }
